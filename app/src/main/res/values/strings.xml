@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CinemaApp</string>
+    <string name="API_KEY">e9fbc87a2d7ee2a8fe830d100ec07bb0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cinema_app">Cinema App</string>
+    <string name="welcome_my_app">Welcome My App</string>
+    <string name="logout">Are you sure want to Signout ?</string>
+</resources>

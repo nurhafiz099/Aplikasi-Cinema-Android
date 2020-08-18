@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9deff"
+    tools:context=".Fragments.AddFragment">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:drawableLeft="@drawable/search1"
+        android:drawablePadding="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/searchtext"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textColorHint="#bcb4d1"
+        android:layout_height="wrap_content"
+        android:id="@+id/addEditText"
+        android:hint="Search for a friend"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addListView">
+    </ListView>
+</LinearLayout>

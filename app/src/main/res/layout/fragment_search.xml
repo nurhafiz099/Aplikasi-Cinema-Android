@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SearchFragment"
+    android:background="#f9deff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear1">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:drawableLeft="@drawable/search1"
+            android:drawablePadding="20dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/searchtext"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textColorHint="#bcb4d1"
+            android:layout_height="match_parent"
+            android:id="@+id/searchEditText"
+            android:hint="Search"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewSearch"
+         android:layout_below="@id/linear1"
+        ></ListView>
+</RelativeLayout>

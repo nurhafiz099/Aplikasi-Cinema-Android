@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdo.cinemaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/starter"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/starter"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".Sign.SignActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MovieActivity" />
+        <activity android:name=".TvShowActivity" />
+        <activity android:name=".Sign.SignUpActivity" />
+        <activity android:name=".Sign.SignInActivity" />
+        <activity android:name=".FriendActivity"></activity>
+    </application>
+
+</manifest>
